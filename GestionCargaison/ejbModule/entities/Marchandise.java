@@ -28,12 +28,12 @@ public class Marchandise implements Serializable {
 		super();
 	}
 
-	public Marchandise(String nomMarchandise, double poidsMarchandise, double volumeMarchandise, Cargaison cargaison) {
+	public Marchandise(String nomMarchandise, double poidsMarchandise, double volumeMarchandise) {
 		super();
 		this.nomMarchandise = nomMarchandise;
 		this.poidsMarchandise = poidsMarchandise;
 		this.volumeMarchandise = volumeMarchandise;
-		this.cargaison = cargaison;
+		
 	}
 
 	public String getNomMarchandise() {

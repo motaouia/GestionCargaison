@@ -54,13 +54,15 @@ public class Cargaison implements Serializable {
 		this.distance = distance;
 	}
 	
-	@XmlTransient
+	
 	public Date getDateLivraison() {
 		return dateLivraison;
 	}
 	public void setDateLivraison(Date dateLivraison) {
 		this.dateLivraison = dateLivraison;
 	}
+	
+	@XmlTransient
 	public List<Marchandise> getMarchandises() {
 		return marchandises;
 	}
