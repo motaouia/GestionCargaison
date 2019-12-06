@@ -63,6 +63,7 @@ public class Cargaison implements Serializable {
 	}
 	
 	@XmlTransient
+	
 	public List<Marchandise> getMarchandises() {
 		return marchandises;
 	}

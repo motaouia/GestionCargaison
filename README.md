@@ -22,7 +22,14 @@
 		être dépassé.
 		
 		
+	==>La couche metier de cette application est basé sur EJB(Session et Entity)
+	
+	==>Creation d'une application qui permet un accès distant aux services
+		métiers qui contient deyx types de services :
+			**: Un web service SOAP avec JAXWS.
+			**: Un web service REST FULL basé sur JAXRS.
 		
 @==>Technologie Utilisees : Java8,EJB3.0(EJB Entity,EJB Session),JPA,HIBERNATE,MySql,WildFly 8.1,Eclipse
+							SOAPUI,JAX-WS,JAX-RS
 
 		
